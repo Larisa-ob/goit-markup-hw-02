@@ -1,0 +1,10 @@
+body {
+  background-color: white;
+}
+.logo {
+  color: black;
+}
+.logo:hover,
+.logo:focus {
+  color: tomato;
+}
