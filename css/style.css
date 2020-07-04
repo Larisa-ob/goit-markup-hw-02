@@ -1,10 +1,84 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --link-text-color: #ffffff;
+}
 body {
-  background-color: white;
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+.button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button.primary {
+  color: var(--link-text-color);
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background: #f5f4fa;
 }
 .logo {
-  color: black;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
-.logo:hover,
-.logo:focus {
-  color: tomato;
+.logo .web {
+  color: var(--accent-color);
+}
+/* Site-nav  */
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link.curent {
+  color: var(--accent-color);
+}
+.adress {
+  color: #757575;
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.adress:hover,
+.adress:focus {
+  color: var(--accent-color);
+}
+/* Секция Герой*/
+.hero-title {
+  color: var(--link-text-color);
+}
+.section-title2,
+.section-title3 {
+  color: var(--title-text-color);
+}
+/* footer*/
+.logo-footer {
+  background-color: #2f303a;
+}
+.adress-footer {
+  color: #afb1b8;
+}
+.text-footer {
+  color: var(--link-text-color);
+}
+.sosial-footer {
+  background-color: rgba(255, 255, 255, 0.1);
 }

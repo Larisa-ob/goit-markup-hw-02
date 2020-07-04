@@ -4,47 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="page-header">
-      <a href="WebStudio" class="logo"><span>Web</span>Studio</a>
+    <header>
+      <a class="logo" href="WebStudio"><span class="web">Web</span>Studio</a>
       <nav>
-        <ul class="site-nav">
-          <li><a href="">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav list">
+          <li><a class="link curent" href="./index.html">Студия</a></li>
+          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list">
         <li>
           <address>
-            <a href="melto:info@devstudio.com">info@devstudio.com</a>
+            <a class="adress" href="melto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </address>
         </li>
         <li>
-          <address><a href="tel:+380961111111">+38 096 111 11 11</a></address>
+          <address>
+            <a class="adress" href="tel:+380961111111">+38 096 111 11 11</a>
+          </address>
         </li>
       </ul>
     </header>
     <main>
       <!--Секция-Герой-->
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="button primary">Заказать услугу</button>
       </section>
       <!--Секция Особенности-->
-      <section>
-        <h2 hidden>Особенности</h2>
-        <ul>
+      <section class="section">
+        <h2 hidden class="section-title2">Особенности</h2>
+        <ul class="list">
           <li>
             <img
-              src="./img/pictures1/antena.svg"
+              src=".css/img/pictures1/antena.svg"
               alt="Антена"
               width="270"
               height="120"
             />
-            <h3>Внимание к деталям</h3>
+            <h3 class="section-title3">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
@@ -57,7 +65,7 @@
               width="270"
               height="120"
             />
-            <h3>Пунктуальность</h3>
+            <h3 class="section-title3">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
@@ -70,7 +78,7 @@
               width="270"
               height="120"
             />
-            <h3>Планирование</h3>
+            <h3 class="section-title3">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
@@ -83,7 +91,7 @@
               width="270"
               height="120"
             />
-            <h3>Современные технологии</h3>
+            <h3 class="section-title3">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -92,9 +100,9 @@
         </ul>
       </section>
       <!--Секция Чем занимаемся-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title2">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
             <img
               src="./img/pictures2/deck_p.jpg"
@@ -125,9 +133,9 @@
         </ul>
       </section>
       <!--Секция Наша команда-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="section">
+        <h2 class="section-title2">Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./img/peoples/img-1.jpg"
@@ -135,7 +143,7 @@
               width="270"
               height="260"
             />
-            <h3>Николай Кучеренко</h3>
+            <h3 class="section-title3">Николай Кучеренко</h3>
             <p>Product Designer</p>
             <ul>
               <li><a href="instagram">instagram</a></li>
@@ -151,7 +159,7 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Иванова</h3>
+            <h3 class="section-title3">Ольга Иванова</h3>
             <p>Frontend Developer</p>
             <ul>
               <li><a href="instagram">instagram</a></li>
@@ -167,7 +175,7 @@
               width="270"
               height="260"
             />
-            <h3>Андрей Шевченко</h3>
+            <h3 class="section-title3">Андрей Шевченко</h3>
             <p>Marketing</p>
             <ul>
               <li><a href="instagram">instagram</a></li>
@@ -183,7 +191,7 @@
               width="270"
               height="260"
             />
-            <h3>Иван Николаев</h3>
+            <h3 class="section-title3">Иван Николаев</h3>
             <p>UI Designer</p>
             <ul>
               <li><a href="instagram">instagram</a></li>
@@ -195,9 +203,9 @@
         </ul>
       </section>
       <!--Секция Постоянные клиенты-->
-      <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
+      <section class="section-client">
+        <h2 class="section-title2">Постоянные клиенты</h2>
+        <ul class="list">
           <li>
             <a href="YA&CO"
               ><img src="./img/logo_1/logo_1.svg" alt="Компания YA & CO"
@@ -227,20 +235,26 @@
       </section>
     </main>
     <!---footer-->
-    <footer>
+    <footer class="logo-footer">
       <div>
-        <a href="WebStudio"><span>Web</span>Studio</a>
+        <a class="text-footer" href="WebStudio"
+          ><span class="web">Web</span>Studio</a
+        >
         <address>
-          <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+          <a class="text-footer" href="">г. Киев, пр-т Леси Украинки, 26</a>
         </address>
         <address>
-          <a href="melto:info@example.com">info@example.com</a>
-          <a href="tel:+380991111111">+38 099 111 11 11</a>
+          <a class="adress-footer" href="melto:info@example.com"
+            >info@example.com</a
+          >
+          <a class="adress-footer" href="tel:+380991111111"
+            >+38 099 111 11 11</a
+          >
         </address>
       </div>
-      <div>
+      <div class="text-footer">
         <b>присоединяйтесь</b>
-        <ul>
+        <ul class="sosial-footer">
           <li><a href="" aria-label="ссылка на instagram">instagram</a></li>
           <li><a href="" aria-label="ссылка на twitter">twitter</a></li>
           <li><a href="" aria-label="ссылка на facebook">facebook</a></li>
