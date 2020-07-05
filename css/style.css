@@ -3,9 +3,10 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --link-text-color: #ffffff;
+  --bgr-color: #f5f4fa;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--link-text-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
@@ -26,7 +27,7 @@ body {
 }
 .button.secondary {
   color: var(--title-text-color);
-  background: #f5f4fa;
+  background-color: var(--bgr-color);
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -68,6 +69,15 @@ body {
 .section-title2,
 .section-title3 {
   color: var(--title-text-color);
+}
+/*секция особеннисти*/
+.bgr-osob,
+.bgr-comand {
+  background-color: var(--bgr-color);
+}
+.bgr-osob:hover,
+.bgr-osob:focus {
+  background-color: var(--accent-color);
 }
 /* footer*/
 .logo-footer {
